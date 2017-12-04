@@ -11,6 +11,6 @@ console.log(sonnet.indexOf("orphans"));
 console.log(sonnet.length)
 
 sonnet = sonnet.replace("winter", "yuletide");
-sonnet = sonnet.replace(/the/gi, "a large");
+sonnet = sonnet.replace(/the /gi, "a large ");
 document.getElementById("sonnet").innerHTML=sonnet
 
